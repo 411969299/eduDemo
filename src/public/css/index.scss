@@ -83,7 +83,8 @@
     height:0.5rem;
     background: #fff;
     float: left;
-    margin-right:0.3rem;
+    margin-right:0.15rem;
+    margin-left:0.15rem;
     list-style-type: none
   }
 
@@ -95,10 +96,51 @@
   }
 
 }
-
+body{
+  padding-bottom:1.4rem;
+}
+.navRouter{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:1.3rem;
+  background-color: #f4f5f6;
+  ul{
+    text-align: left;
+    width:11rem;
+  }
+  li{
+    text-align: center;
+    height:1.3rem;
+    line-height:1.3rem;
+    width:2.5rem;
+    overflow: hidden;
+    font-size: 0.4rem;
+    display:inline-block;
+    color:#999;
+    font-weight:bold;
+    position: relative;
+    .tips{
+      position: absolute;
+      right:0;
+      top:0;
+      height:0.2rem;
+      line-height:0.2rem;
+      border-radius: 0.1rem;
+      padding:0.1rem 0.2rem;
+      background-color: #f85959;
+      border:2px solid #fff;
+      color:#fff;
+      font-weight:normal;
+    }
+  }
+  .focus{
+    background-color: #FF9966;
+    color:#fff
+  }
+}
 .item-section{
   width:100%;
-
   overflow: hidden;
   .classification{
     max-width:10rem;
