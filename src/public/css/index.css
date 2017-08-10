@@ -1,11 +1,72 @@
-.item-section {
-  min-width: 100%; }
-  .item-section .home_headimg {
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.home_headimg {
+  position: relative;
+  width: 10rem;
+  text-align: center;
+  height: 6.18rem;
+  overflow: hidden;
+  margin: 0 auto; }
+  .home_headimg .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 10rem;
-    text-align: center;
     height: 6.18rem;
-    border: 1px solid red;
+    -webkit-transition: opacity .9s linear;
+    -moz-transition: opacity .9s linear;
+    -o-transition: opacity .9s linear;
+    transition: opacity .9s linear;
+    opacity: 0;
+    filter: alpha(opacity=0); }
+  .home_headimg .fadeIn {
+    opacity: 100;
+    filter: alpha(opacity=100); }
+  .home_headimg #bg1 {
+    background: url("../images/adv_0.jpg") no-repeat;
+    background-size: 10rem 6.18rem; }
+  .home_headimg #bg2 {
+    background: url("../images/adv_1.jpg") no-repeat;
+    background-size: 10rem 6.18rem; }
+  .home_headimg #bg3 {
+    background: url("../images/adv_2.jpg") no-repeat;
+    background-size: 10rem 6.18rem; }
+  .home_headimg #bg4 {
+    background: url("../images/adv_3.jpg") no-repeat;
+    background-size: 10rem 6.18rem; }
+  .home_headimg #bg5 {
+    background: url("../images/adv_4.jpg") no-repeat;
+    background-size: 10rem 6.18rem; }
+  .home_headimg .pagination {
+    width: auto;
+    display: table;
     margin: 0 auto; }
+  .home_headimg .pagination-panel {
+    width: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+    z-index: 100;
+    height: auto; }
+  .home_headimg .pagination li {
+    border-radius: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fff;
+    float: left;
+    margin-right: 0.3rem;
+    list-style-type: none; }
+  .home_headimg .pagination li.active {
+    background: #52c6d8; }
+  .home_headimg .pagination li:last-child {
+    margin-right: 0; }
+
+.item-section {
+  width: 100%;
+  overflow: hidden; }
   .item-section .classification {
     max-width: 10rem;
     margin: 0 auto; }
@@ -31,12 +92,62 @@
     .item-section .classification li:nth-of-type(4) {
       background-color: #CC66CC; }
   .item-section .messagePush {
-    height: 30rem;
-    padding: 0 0.2rem;
     margin-top: .4rem; }
-    .item-section .messagePush .mess_title {
-      border-bottom: 1px solid #000;
-      padding-bottom: .1rem;
-      font-size: .5rem; }
+    .item-section .messagePush .common_title {
+      margin-top: 0.2rem;
+      font-size: .6rem;
+      padding: 0 0.2rem;
+      padding-bottom: .1rem; }
+      .item-section .messagePush .common_title .title {
+        border-bottom: 1px solid #000;
+        font-weight: bold; }
+    .item-section .messagePush .class_list li {
+      margin-top: 0.2rem; }
+      .item-section .messagePush .class_list li img {
+        width: 10rem;
+        border: 1px solid #e8e8e8; }
+    .item-section .messagePush .mess_list {
+      padding: 0 0.2rem; }
+      .item-section .messagePush .mess_list ul {
+        padding: 0.1rem; }
+      .item-section .messagePush .mess_list li {
+        border-bottom: 1px solid #999;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0.12rem 0rem; }
+      .item-section .messagePush .mess_list .introduction {
+        overflow: hidden; }
+        .item-section .messagePush .mess_list .introduction dt {
+          font-size: 0.4rem;
+          padding-top: 0.1rem; }
+      .item-section .messagePush .mess_list .mess_img {
+        height: 1.9351rem;
+        overflow: hidden; }
+      .item-section .messagePush .mess_list .mess_img img {
+        width: 2.9814rem;
+        height: 1.9351rem;
+        border: 1px solid #e8e8e8; }
+      .item-section .messagePush .mess_list .attr {
+        width: 100%;
+        color: #999999; }
+      .item-section .messagePush .mess_list .type_0 {
+        height: 2.6rem; }
+        .item-section .messagePush .mess_list .type_0 .introduction {
+          width: 6rem;
+          height: 2rem; }
+        .item-section .messagePush .mess_list .type_0 .mess_img {
+          width: 2.9814rem; }
+      .item-section .messagePush .mess_list .type_1 {
+        height: 4.0rem; }
+        .item-section .messagePush .mess_list .type_1 .introduction {
+          width: 100%;
+          height: 1.2rem; }
+        .item-section .messagePush .mess_list .type_1 .mess_img {
+          width: 10rem; }
+          .item-section .messagePush .mess_list .type_1 .mess_img img {
+            margin-left: 0.03rem; }
 
 /*# sourceMappingURL=index.css.map */
