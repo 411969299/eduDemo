@@ -4,6 +4,14 @@
 .right {
   float: right; }
 
+ul, li, dl, dt, dd {
+  list-style: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px; }
+
 .home_headimg {
   position: relative;
   width: 10rem;
@@ -81,7 +89,7 @@ body {
     text-align: center;
     height: 1.3rem;
     line-height: 1.3rem;
-    width: 2.5rem;
+    width: 2.42rem;
     overflow: hidden;
     font-size: 0.4rem;
     display: inline-block;
@@ -130,6 +138,8 @@ body {
     .item-section .classification li:nth-of-type(3) {
       background-color: #FF9966; }
     .item-section .classification li:nth-of-type(4) {
+      background-color: #CC66CC; }
+    .item-section .classification li:nth-of-type(5) {
       background-color: #CC66CC; }
   .item-section .messagePush {
     margin-top: .4rem; }
