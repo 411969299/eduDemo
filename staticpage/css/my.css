@@ -14,7 +14,8 @@
       border-radius: 1rem;
       margin: 0 auto; }
       #my .my_head .babyimg img {
-        margin-left: -0.8rem; }
+        width: 2rem;
+        height: 2rem; }
     #my .my_head h3 {
       text-align: center;
       color: #fff;
@@ -30,10 +31,15 @@
     width: 2rem;
     height: 2rem;
     border: 1px solid #999;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0.4rem;
+    padding-top: 0.58rem; }
   #my .logout {
     text-align: center; }
     #my .logout button {
       width: 3rem; }
+  #my ul.list-group li.list-group-item {
+    font-size: 0.4rem;
+    padding: 0.2rem 0; }
 
 /*# sourceMappingURL=my.css.map */
